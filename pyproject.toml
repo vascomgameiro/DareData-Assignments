@@ -24,3 +24,6 @@ omit = [
 
 [tool.coverage.report]
 fail_under = 80
+
+[tool.pylint.FORMAT]
+max-line-length = 120
